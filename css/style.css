@@ -1,0 +1,161 @@
+*{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #E5E5E5;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: #D1891C;
+    width: 2056px;
+    height: 61px;
+}
+
+h1{
+    background: #00669F;
+    color: #FFFFFF;
+    margin: 0px;
+    width: 2056px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#banners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:30px;
+}
+
+.banner-batman{
+    position: relative;
+    align-items: center;
+    width: 350px;
+    height:560px;
+    background-color: #F3F3F3; 
+    
+}
+
+.heart-batman{
+    display: flex;
+    position: absolute;
+    left:2%;
+    top:6%;
+    font-size:25px;
+    color: #CC2424;
+}
+
+.fondo-tarjeta{
+    display: flex;
+    position:absolute;
+    height:200px;
+    width:350px;
+    top:0px;
+    border-radius:8px;   
+}
+
+i{
+    position: absolute;
+    color:#CC2424;
+    font-size: 30px;
+    left: 5%;
+    top:2%;
+    z-index:1;
+}
+
+.foto-heroe{
+    position: absolute;
+    border-radius:150px;
+    right:30%;
+    top:25%;
+    width:140px;
+    height:140px;
+}
+
+#banners h3{
+    position: absolute;
+    bottom: 40%;
+    left: 32%;
+    text-align: center;
+    font-size: 23px;
+}
+
+#banners p{
+    position: absolute;
+    bottom: 15%;
+    text-align:left;
+    left: 10px;
+}
+
+#banners button{
+    position:absolute;
+    bottom: 20px;
+    left: 100px;
+    width: 140px;
+    height: 50px;
+    background: #00669F;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 15px;;
+}
+
+.banner-wonderwoman{
+    position: relative;
+    align-items: center;
+    width: 350px;
+    height:560px;
+    left:0px;
+    background-color: #F3F3F3; 
+}
+
+.banner-superman{
+    position: relative;
+    align-items: center;
+    width: 350px;
+    height:560px;
+    left:0px;
+    background-color: #F3F3F3; 
+    top: 30px; 
+}
+
+.banner-harley{
+    position: relative;
+    align-items: center;
+    width: 350px;
+    height:560px;
+    left:0px;
+    background-color: #F3F3F3; 
+    top: 30px;
+}
+
+
+.pie-pagina{
+    display: flex;
+    background-color: #00669F;
+    width: 2056px;
+    height: 60px;
+    position: relative;
+    top:90px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-left: 250px;;
+}
+
+.logo-git{
+    position: absolute;
+    left: 750px;
+    align-items: center;
+}
+
+
